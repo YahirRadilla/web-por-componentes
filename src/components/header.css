@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background: white;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo-highlight {
+    color: #2563eb;
+    font-size: larger;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: 400;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav a:hover {
+    color: #2563eb;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background 0.2s ease-in-out;
+}
+
+.menu-btn:hover {
+    background: #f3f4f6;
+}
+
+.menu-btn svg {
+    width: 24px;
+    height: 24px;
+    stroke: #374151;
+}
