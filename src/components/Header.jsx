@@ -6,16 +6,15 @@ function Header() {
     <header className="header">
 
       <div className="logo">
-        <span className="logo-highlight">Quest</span>
+        <span className="logo-highlight">RentCars</span>
       </div>
 
  
       <nav className="nav">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Courses</a>
-        <a href="#">Pages</a>
-        <a href="#">Blog</a>
+        <a href="#">Become a renter</a>
+        <a href="#">Rental deals</a>
+        <a href="#">How it work</a>
+        <a href="#">Why choose us</a>
       </nav>
 
       
